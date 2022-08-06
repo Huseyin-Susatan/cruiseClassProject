@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Boat_Brand__c</fullName>
+    <externalId>false</externalId>
+    <label>Boat Brand</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Dyna</fullName>
+                <default>false</default>
+                <label>Dyna</label>
+            </value>
+            <value>
+                <fullName>Ocean Explorer</fullName>
+                <default>false</default>
+                <label>Ocean Explorer</label>
+            </value>
+            <value>
+                <fullName>Bavaria</fullName>
+                <default>false</default>
+                <label>Bavaria</label>
+            </value>
+            <value>
+                <fullName>Centurion</fullName>
+                <default>false</default>
+                <label>Centurion</label>
+            </value>
+            <value>
+                <fullName>Grandy</fullName>
+                <default>false</default>
+                <label>Grandy</label>
+            </value>
+            <value>
+                <fullName>Harris</fullName>
+                <default>false</default>
+                <label>Harris</label>
+            </value>
+            <value>
+                <fullName>Bruce Nelson</fullName>
+                <default>false</default>
+                <label>Bruce Nelson</label>
+            </value>
+            <value>
+                <fullName>Hanse Yachts</fullName>
+                <default>false</default>
+                <label>Hanse Yachts</label>
+            </value>
+            <value>
+                <fullName>Ontario Yachts</fullName>
+                <default>false</default>
+                <label>Ontario Yachts</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Equipment__c</fullName>
+    <externalId>false</externalId>
+    <label>Equipment</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>GPS</fullName>
+                <default>false</default>
+                <label>GPS</label>
+            </value>
+            <value>
+                <fullName>Radar</fullName>
+                <default>false</default>
+                <label>Radar</label>
+            </value>
+            <value>
+                <fullName>Otomatik Pilot</fullName>
+                <default>false</default>
+                <label>Otomatik Pilot</label>
+            </value>
+            <value>
+                <fullName>VHF Radyo</fullName>
+                <default>false</default>
+                <label>VHF Radyo</label>
+            </value>
+            <value>
+                <fullName>Derinlik Ölçer</fullName>
+                <default>false</default>
+                <label>Derinlik Ölçer</label>
+            </value>
+            <value>
+                <fullName>Seyir Haritası</fullName>
+                <default>false</default>
+                <label>Seyir Haritası</label>
+            </value>
+            <value>
+                <fullName>Buz Makinesi</fullName>
+                <default>false</default>
+                <label>Buz Makinesi</label>
+            </value>
+            <value>
+                <fullName>Buzdolabı</fullName>
+                <default>false</default>
+                <label>Buzdolabı</label>
+            </value>
+            <value>
+                <fullName>Klima</fullName>
+                <default>false</default>
+                <label>Klima</label>
+            </value>
+            <value>
+                <fullName>jokerboat</fullName>
+                <default>false</default>
+                <label>jokerboat</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

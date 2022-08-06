@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Features__c</fullName>
+    <externalId>false</externalId>
+    <label>Features</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Tender boats</fullName>
+                <default>false</default>
+                <label>Tender boats</label>
+            </value>
+            <value>
+                <fullName>Jet packs</fullName>
+                <default>false</default>
+                <label>Jet packs</label>
+            </value>
+            <value>
+                <fullName>Dive and snorkel gear</fullName>
+                <default>false</default>
+                <label>Dive and snorkel gear</label>
+            </value>
+            <value>
+                <fullName>Seabobs</fullName>
+                <default>false</default>
+                <label>Seabobs</label>
+            </value>
+            <value>
+                <fullName>Jetskis</fullName>
+                <default>false</default>
+                <label>Jetskis</label>
+            </value>
+            <value>
+                <fullName>Fishrod</fullName>
+                <default>false</default>
+                <label>Fishrod</label>
+            </value>
+            <value>
+                <fullName>kitesufing</fullName>
+                <default>false</default>
+                <label>kitesufing</label>
+            </value>
+            <value>
+                <fullName>parasailing</fullName>
+                <default>false</default>
+                <label>parasailing</label>
+            </value>
+            <value>
+                <fullName>Aquapark</fullName>
+                <default>false</default>
+                <label>Aquapark</label>
+            </value>
+            <value>
+                <fullName>Concert</fullName>
+                <default>false</default>
+                <label>Concert</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>
