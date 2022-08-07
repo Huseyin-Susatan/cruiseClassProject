@@ -116,10 +116,12 @@
 		<name>CustomObject</name>
 	</types>
 	<types>
+		<members>Bulk_Room_Creation</members>
 		<members>Yacht_Book_To_Opp_Flow</members>
 		<name>Flow</name>
 	</types>
 	<types>
+		<members>Bulk_Room_Creation</members>
 		<members>Yacht_Book_To_Opp_Flow</members>
 		<name>FlowDefinition</name>
 	</types>
