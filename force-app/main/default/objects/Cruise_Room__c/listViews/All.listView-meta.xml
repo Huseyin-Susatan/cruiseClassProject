@@ -8,6 +8,7 @@
     <columns>Passenger_Price__c</columns>
     <columns>Room_Type__c</columns>
     <columns>OBJECT_ID</columns>
+    <columns>CREATED_DATE</columns>
     <filterScope>Everything</filterScope>
     <label>All</label>
 </ListView>
