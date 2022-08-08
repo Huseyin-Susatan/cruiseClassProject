@@ -1,0 +1,26 @@
+<!--
+  @description       : 
+  @author            : Fatih SARI
+  @group             : 
+  @last modified on  : 08-07-2022
+  @last modified by  : Fatih SARI
+-->
+<template>
+  
+  <div class="slds-p-bottom_large slds-p-left_large" style="width:500px">
+    <lightning-record-edit-form object-api-name="Room_Type__c">
+        <lightning-messages></lightning-messages>
+        <lightning-input-field field-name="Name" name="Name" onchange={onTextchange}> </lightning-input-field>
+        <lightning-input-field field-name="Price__c" name="Price" onchange={onTextchang}> </lightning-input-field>
+        <lightning-input-field field-name="Feature__c" name="Feature" onchange={onTextcha}> </lightning-input-field>
+        <lightning-input-field field-name="Class__c" name="Class" onchange={onTextch}> </lightning-input-field>
+        <lightning-input type="number" name="input1" label="Enter a number"  onchange={onTextc}></lightning-input>
+        <lightning-button
+        onclick={callapexmethod}
+            name="send"
+            label="Create Room Type"
+        >
+        </lightning-button>
+    </lightning-record-edit-form>
+</div>
+</template>
