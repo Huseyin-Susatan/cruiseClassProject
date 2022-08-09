@@ -35,23 +35,16 @@ onTextc(event){
     
     callapexmethod(){
       createRoomType({HowMuch: this.howmany , Name: this.names , Price: this.prices, Feature: this.features, Classes: this.classes})
-        
-    }
-    onSuccessHandler(){
-
-      console.log();
-  
-     // this.message='başarıyla olusturuldu ';
-    
       const evt = new ShowToastEvent({
-            title: "Success" ,
-            message: "başarıyla oluşturuldu" ,
-            variant: "success",
-            mode: "dismissable"
-        });
-        this.dispatchEvent(evt);
-  
-  
+        title: "Success" ,
+        message: " Odalar Başarıyla Oluşturuldu." ,
+        variant: "success",
+        mode: "dismissable"
+    });
+    this.dispatchEvent(evt);
+
+
+   
     }
 
 }

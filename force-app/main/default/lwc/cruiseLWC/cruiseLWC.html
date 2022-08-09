@@ -9,7 +9,7 @@
   
   <div class="slds-p-bottom_large slds-p-left_large" style="width:500px">
     <lightning-record-edit-form object-api-name="Room_Type__c"
-    onsuccess={onSuccessHandler}>
+    >
         <lightning-messages></lightning-messages>
         <lightning-input-field field-name="Name" name="Name" onchange={onTextchange}> </lightning-input-field>
         <lightning-input-field field-name="Price__c" name="Price" onchange={onTextchang}> </lightning-input-field>
@@ -21,12 +21,15 @@
         onclick={callapexmethod}
             name="send"
             label="Create Room Type"
+   
+            
+            
            
         >
         </lightning-button>
+        
     </lightning-record-edit-form>
     
     
-   
 </div>
 </template>
