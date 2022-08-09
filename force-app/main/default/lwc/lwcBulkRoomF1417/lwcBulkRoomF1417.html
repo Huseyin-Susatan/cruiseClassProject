@@ -1,0 +1,33 @@
+<!--
+  @description       : 
+  @author            : Fatih SARI
+  @group             : 
+  @last modified on  : 08-09-2022
+  @last modified by  : Fatih SARI
+-->
+<template>
+  <lightning-card  variant="Narrow"  title="Create Bulk Room" icon-name="standard:account">
+    <lightning-button-icon  icon-name="utility:down" variant="border-filled" alternative-text="Show More" slot="actions"></lightning-button-icon>
+    
+    <div class="slds-p-bottom_large slds-p-left_large" >
+      <lightning-record-edit-form object-api-name="Cruise_Room__c">
+          <lightning-messages></lightning-messages>
+          <lightning-input type="number" name="input1" label="How Many"  onchange={onTextchangeone}></lightning-input>
+          <lightning-input-field field-name="Room_Type__c" name="Room Type" onchange={onTextchangetwo}> </lightning-input-field>
+          <lightning-input-field field-name="Cruise_Ship__c" name="Cruise Ship" onchange={onTextchangethree}> </lightning-input-field>
+          <lightning-input-field field-name="Capacity__c" name="Capacity" onchange={onTextchangefour}> </lightning-input-field>
+          <lightning-input-field field-name="Passenger_Price__c" name="Passenger Price" onchange={onTextchangefive}> </lightning-input-field>
+          
+        
+          <lightning-button
+          onclick={callapexmethods}
+              name="send"
+              label="Create Bulk Room"
+          >
+          </lightning-button>
+      </lightning-record-edit-form>
+      
+  </div>
+    <p slot="footer">Create Bulk Room</p>
+  </lightning-card>
+  </template>
