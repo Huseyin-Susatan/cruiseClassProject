@@ -129,10 +129,8 @@
 		<name>Flow</name>
 	</types>
 	<types>
-		<members>Rollup_Helper</members>
-		<members>Rollup_with_flow</members>
-		<members>Rollup_with_flow_Delete_Trigger</members>
-		<members>Room_Capacity_Check</members>
+		<members>Bulk_Room_Creation</members>
+		<members>Bulk_Room_Creation_with_APEX</members>
 		<members>Yacht_Book_To_Opp_Flow</members>
 		<name>FlowDefinition</name>
 	</types>
