@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Capacity_Chart__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( Total_Passenger__c &lt; Total_Room_Capacity__c , IMAGE(&quot;/resource/1660590910000/grey?&quot;,&quot;gray&quot;,18,2) &amp;
+IMAGE(&quot;/resource/1660590879000/green?&quot;,&quot;green&quot;,18,(Total_Passenger__c /Total_Room_Capacity__c )*200)&amp;
+IMAGE(&quot;/resource/1660590910000/grey?&quot;,&quot;gray&quot;,18,(1-(Total_Passenger__c /Total_Room_Capacity__c ))*200)&amp;
+IMAGE(&quot;/resource/1660590910000/grey?&quot;,&quot;gray&quot;,18,2), &quot;🔴&quot;
+
+
+
+
+
+
+
+
+
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Capacity Chart</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

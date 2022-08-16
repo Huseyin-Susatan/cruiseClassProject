@@ -1,0 +1,7 @@
+<apex:page >
+  
+  <iframe src="https://maps.google.com/search/hospitals/maps?@58.2944799,-134.4688281,25079m&output=embed" title="google map" width="1024px" height="400px"></iframe>
+  
+
+  
+</apex:page>

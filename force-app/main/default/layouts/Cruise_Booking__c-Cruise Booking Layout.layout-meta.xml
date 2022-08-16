@@ -63,6 +63,14 @@
                 <behavior>Edit</behavior>
                 <field>Helicopters__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Total_Room_Capacity__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Capacity_Chart__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -122,10 +130,20 @@
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>
+        <fields>capacity__c</fields>
+        <fields>Cruise_Room__c.Cruise__c</fields>
+        <fields>Cruise_Room__c.Price__c</fields>
+        <fields>Cruise_Room__c.Passenger_Price__c</fields>
         <relatedList>Date_Booking_To_Room__c.Cruise_Booking__c</relatedList>
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>
+        <fields>Contact.CNTC_FIRST_NAME</fields>
+        <fields>Contact.NAME</fields>
+        <fields>First_Name__c</fields>
+        <fields>Last_Name__c</fields>
+        <fields>isMedicDeclared__c</fields>
+        <fields>isSpecialEventNeeded__c</fields>
         <relatedList>Passenger__c.Cruise_Booking__c</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
@@ -134,7 +152,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h8d000001AAKD</masterLabel>
+        <masterLabel>00h8V00000aaOxI</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>

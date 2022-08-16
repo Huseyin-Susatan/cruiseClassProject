@@ -1,0 +1,36 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+	
+<aura:attribute name="recordId" type="Id" />
+<aura:attribute name="record" type="Object" />
+<aura:attribute name="cruise" type="Object" />
+<aura:attribute name="recordError" type="String" />
+   
+    
+  <force:recordData aura:id="recordViewer"
+    recordId="{!v.recordId}"
+    targetRecord="{!v.record}"
+    layoutType="FULL"
+    mode="VIEW"
+    fields="Name"
+    targetFields="{!v.cruise}"
+    targetError="{!v.recordError}"
+    recordUpdated="{!c.init}"
+    />
+  
+    
+ <aura:attribute name="mapMarkers" type="Object"/>
+ <aura:attribute name="zoomLevel" type="Integer" />
+ <aura:attribute name="center" type="Object" />
+ <aura:attribute name="markersTitle" type="String" />
+ <aura:attribute name="shipName" type="String" default="SELAM" access="Global" />
+    
+    
+ <!-- the map component -->
+ <lightning:map 
+     mapMarkers="{!v.mapMarkers}" 
+     zoomLevel="{!v.zoomLevel}"  
+     center="{!v.center}"/>
+    
+    
+    
+</aura:component>

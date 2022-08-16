@@ -4,6 +4,11 @@
     <columns>NAME</columns>
     <columns>Call_sign__c</columns>
     <columns>Total_Room__c</columns>
+    <columns>IMO__c</columns>
+    <columns>MMSI__c</columns>
+    <columns>Lastest_Coordinate__Latitude__s</columns>
+    <columns>Lastest_Coordinate__Longitude__s</columns>
+    <columns>CREATED_DATE</columns>
     <filterScope>Everything</filterScope>
     <label>All</label>
 </ListView>
